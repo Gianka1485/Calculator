@@ -1,0 +1,12 @@
+.display {
+    font-size: 2em;
+    color: hsla(0, 0%, 0%, .7);
+    background-color: hsla(0, 0%, 100%, .35);
+    backdrop-filter: blur(10px) saturate(225%) contrast(100%) brightness(150%) opacity(.3);
+    border-radius: 10px;
+    margin: 5px;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    place-items: center;
+}

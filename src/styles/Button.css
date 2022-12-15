@@ -1,0 +1,71 @@
+.button {
+    background-color: hsl(180, 100%, 80%);
+    box-shadow: -5px 5px 7.5px 2.5px hsla(0, 0%, 0%, .2);
+    border-radius: 50%;
+    font-size: 1.75em;
+    display: grid;
+    place-items: center;
+    position: relative;
+    margin: auto;
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+    transition: .1s;
+}
+
+.button span{
+    font-size: .65em;
+}
+
+.button:active {
+    background-color: hsl(180, 70%, 75%);
+    height: 67px;
+    width: 67px;
+    box-shadow: none;
+}
+
+.equals {
+    background-color: hsl(240, 100%, 80%);
+}
+
+.equals:active {
+    background-color: hsl(240, 70%, 75%);
+}
+
+.decimal {
+    background-color: hsl(60, 100%, 80%);
+}
+
+.decimal:active {
+    background-color: hsl(60, 80%, 75%);
+}
+
+.operator {
+    background-color: hsl(270, 100%, 80%);
+}
+
+.operator:active {
+    background-color: hsl(270, 90%, 75%);
+}
+
+.delete {
+    grid-column-start: 4;
+    background-color: hsl(0, 100%, 80%);
+}
+
+.delete:active {
+    background-color: hsl(0, 90%, 75%);
+}
+
+.delete img {
+    position: absolute;
+    margin-right: 8%;
+    height: 60%;
+    width: 60%;
+}
+
+.exponent span {
+    position: absolute;
+    top: 15%;
+    right: 20%;
+}
