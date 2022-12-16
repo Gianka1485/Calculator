@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Calculator/static/css/main.dda26bb8.css",
-    "main.js": "/Calculator/static/js/main.0d014473.js",
+    "main.js": "/Calculator/static/js/main.e1af72e3.js",
     "static/media/Montserrat-SemiBold.ttf": "/Calculator/static/media/Montserrat-SemiBold.d5e0cc788cba9ced1fb9.ttf",
     "index.html": "/Calculator/index.html",
     "main.dda26bb8.css.map": "/Calculator/static/css/main.dda26bb8.css.map",
-    "main.0d014473.js.map": "/Calculator/static/js/main.0d014473.js.map"
+    "main.e1af72e3.js.map": "/Calculator/static/js/main.e1af72e3.js.map"
   },
   "entrypoints": [
     "static/css/main.dda26bb8.css",
-    "static/js/main.0d014473.js"
+    "static/js/main.e1af72e3.js"
   ]
 }
