@@ -1,5 +1,4 @@
 .display {
-    font-size: 2em;
     color: hsla(0, 0%, 0%, .7);
     background-color: hsla(0, 0%, 100%, .35);
     backdrop-filter: blur(10px) saturate(225%) contrast(100%) brightness(150%) opacity(.3);

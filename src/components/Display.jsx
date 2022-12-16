@@ -2,7 +2,7 @@ import React from "react";
 import '../styles/Display.css'
 
 const Display = ({ result }) => (
-    <div className="display" style={`font-size: ${result.length >= 20 ? '2em' : '10px'};`}>{result}</div>
+    <div className="display" style={{fontSize: `${result.length >= 19 ? '1.75em' : '2em' }`}}>{result}</div>
 );
 
 export default Display;
