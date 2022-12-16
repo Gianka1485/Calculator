@@ -17,8 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build -r https://$C_TOKEN@github.io/Gianka1485/calculator"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
