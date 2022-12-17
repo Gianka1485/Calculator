@@ -69,3 +69,23 @@
     top: 15%;
     right: 20%;
 }
+
+@media (max-width:280px) {
+    .button {
+        font-size: 1.5em;
+        box-shadow: -2px 2px 5px 1.5px hsla(0, 0%, 0%, .2);
+        height: 47px;
+        width: 47px;
+        cursor: none;
+        transition: .05s;
+    }
+    
+    .button span{
+        font-size: .55em;
+    }
+
+    .button:active {
+        height: 46px;
+        width: 46px;
+    }
+}

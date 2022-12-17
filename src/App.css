@@ -10,3 +10,10 @@
   height: 600px;
   width: 400px;
 }
+
+@media (max-width: 280px) {
+  .calculator {
+    height: 415px;
+    width: 275px;
+  }
+}
