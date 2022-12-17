@@ -11,6 +11,7 @@
     width: 70px;
     cursor: pointer;
     transition: .1s;
+    user-select: none;
 }
 
 .button span{
