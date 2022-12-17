@@ -11,7 +11,7 @@
   width: 400px;
 }
 
-@media (max-width: 280px) {
+@media (max-width: 400px) {
   .calculator {
     height: 415px;
     width: 275px;
